@@ -1,0 +1,258 @@
+
+                                          /*  визуальное  прятанье  */
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden{
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
+}
+
+                                      /*  подключение файлов шрифтов  */
+@font-face{                               
+    font-family:'Montserrat';
+    font-weight: 400;
+    src: url('../fonts/montserrat-400.woff') format('woff');                
+  } 
+  
+  @font-face{                               
+    font-family:'Montserrat';
+    font-weight: 700;
+    src: url('../fonts/montserrat-700.woff') format('woff');                
+  } 
+
+  @font-face{                               
+    font-family:'Roboto';
+    font-weight: 300;
+    src: url('../fonts/roboto-300.woff') format('woff');                
+  }
+
+  @font-face{                               
+    font-family:'Roboto';
+    font-weight: 400;
+    src: url('../fonts/roboto-400.woff') format('woff');                
+  }
+
+  .container{
+    padding: 0;
+   }
+ 
+  .cool{
+    padding: 0;
+  }
+                               /* Оформление  хедера */
+
+    .site-logo{
+      margin: 0;
+      padding: 0;
+      font-family:'Montserrat';
+      font-weight: 700;
+      font-size: 20px;                       /* выбираем  размер  для  шрифта */
+      line-height: 24px;                  /*  размер  строковой  линии  */
+    }
+
+    .site-logo a{
+      display: inline-block;
+      text-decoration: none ;              /*  убераем  подчеркивание  */
+      color: #ffffff;                      /* указываем  цвет  для  шрифта */
+    }
+
+
+    .site-navigation li{
+        list-style: none;                    /*  убераем  оформление  списка  ( точки )  */
+        font-family:'Montserrat';
+        font-weight: 700;
+        font-size: 14px;                       /* выбираем  размер  для  шрифта */
+        line-height: 32px;                  /*  размер  строковой  линии  */
+    }
+
+    .site-navigation a{
+        display: inline-block;
+        text-decoration: none ;              /*  убераем  подчеркивание  */
+        color: #ffffff;                      /* указываем  цвет  для  шрифта */
+        width: 86px;
+        text-align: center; 
+    }
+
+    .site-navigation a:hover,      /*  задайом  цвет  при  наведении  на  сылку  */
+    .site-navigation a:focus{      /*  задайом  цвет  при    перемещении  клавиатурой  таб  */
+        border: 2px solid #ffffff;
+        border-radius: 45px;
+      }
+
+  
+
+ 
+
+   .hdva{
+    margin: 0;
+    padding: 0;
+    
+    font-family:'Montserrat';
+    font-weight: 700;
+    color: #ffffff;                      /* указываем  цвет  для  шрифта */
+    text-transform: uppercase ;          /*  зделать  текст  с  большой  буквой  */
+
+   }
+
+   .hdva-od{
+    margin: 0;
+    padding: 0;
+    
+    font-family:'Montserrat';
+    font-weight: 700;
+    color: #ffffff;                      /* указываем  цвет  для  шрифта */
+    text-transform: uppercase ;          /*  зделать  текст  с  большой  буквой  */
+
+   }
+
+   .text{
+    margin: 0;
+    padding: 0;
+    
+    font-family:'Roboto';
+    font-weight: 300;
+    color: #ffffff;                      /* указываем  цвет  для  шрифта */
+    text-align: center;
+
+   }
+
+   .site-knopka a{
+    margin: 0;
+    padding: 0;
+
+    height: 40px;
+    font-family:'Montserrat';
+    font-weight: 700;
+    font-size: 14px;                       /* выбираем  размер  для  шрифта */
+    line-height: 40px;                  /*  размер  строковой  линии  */
+    display: inline-block;
+    text-decoration: none ;              /*  убераем  подчеркивание  */
+    color: #ffffff;                      /* указываем  цвет  для  шрифта */
+    text-align: center;
+    background-color: #ff4e50;
+    border-radius: 45px;
+
+   }
+
+   .site-knopka a:hover,      /*  задайом  цвет  при  наведении  на  сылку  */
+   .site-knopka a:focus{      /*  задайом  цвет  при    перемещении  клавиатурой  таб  */
+
+    background-color: #000000;
+    color: #ffffff;                      /* указываем  цвет  для  шрифта */
+
+      }
+
+
+                      /* Оформление  SECTION */
+
+
+      .features-title{
+        margin: 0;
+        padding: 0;
+        font-family:'Montserrat';
+        font-weight: 700;
+        font-size: 22px;                       /* выбираем  размер  для  шрифта */
+        line-height: 26px;                  /*  размер  строковой  линии  */
+        color: #333333;                      /* указываем  цвет  для  шрифта */
+        text-align: center;
+      }
+
+
+      .icon1::before{
+        background-image: url(../img/3.jpg);
+      }
+      .icon2::before{
+        background-image: url(../img/5.jpg);
+      }
+      .icon3::before{
+        background-image: url(../img/7.jpg);
+      }
+      .icon4::before{
+        background-image: url(../img/9.jpg);
+      }
+
+      .features-list{
+        list-style: none;                    /*  убераем  оформление  списка  ( точки )  */
+      }
+
+      .features-list-item::before{
+        content: "";
+        position: absolute;
+        width: 41px;
+        height: 41px;
+        background-repeat: no-repeat;
+        background-position: center;                        /* расположение  по  центру  фото  */
+        border-radius: 50%;
+
+        top: 95px;
+        left: 143px;
+    }
+
+    .features-list-item{
+      position: relative;
+      flex-grow: 0;           /*  запрещяем  расти  */
+      flex-shrink: 0;        /*  запрещяем  зжиматся  */
+       width: 235px; 
+      text-align: center;
+     
+    }
+
+    .features-list-item img{
+       padding-top: 12px;
+       padding-bottom: 5px;
+    }
+
+    .features-p{
+      margin: 0;
+      padding: 0;
+      
+      font-family:'Montserrat';
+      font-weight: 700;
+      font-size: 14px;                       /* выбираем  размер  для  шрифта */
+      line-height: 44px;                  /*  размер  строковой  линии  */
+      color: #333333;                      /* указываем  цвет  для  шрифта */
+      text-align: center;
+    }
+
+    .features-pp{
+      margin: 0;
+      padding: 0;
+      
+      font-family:'Roboto';
+      font-weight: 300;
+      font-size: 14px;                       /* выбираем  размер  для  шрифта */
+      line-height: 17px;                  /*  размер  строковой  линии  */
+      color: #666666;                      /* указываем  цвет  для  шрифта */
+      text-align: center;
+
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+     
+    .sec-kno a{
+      display: inline-block;
+      width: 276px;
+      font-family:'Montserrat';
+      font-weight: 700;
+      font-size: 14px;                       /* выбираем  размер  для  шрифта */
+      line-height: 36px;                  /*  размер  строковой  линии  */
+      text-decoration: none ;              /*  убераем  подчеркивание  */
+      color: #ff4e50;                      /* указываем  цвет  для  шрифта */
+      text-align: center;
+      border: 2px solid #ff4e50;
+      border-radius: 45px;
+    }
+
+    .sec-kno a:hover,      /*  задайом  цвет  при  наведении  на  сылку  */
+    .sec-kno a:focus{      /*  задайом  цвет  при    перемещении  клавиатурой  таб  */
+        background-color: #e6ff08e1;
+      }
+

@@ -1,0 +1,300 @@
+@media (max-width: 991px) {
+
+                                 /* Оформление  хедера */
+
+    .container{
+        width: 320px;        /*  ширина  контейнера */
+        margin: 0 auto;           /* по  вертикали  ноль  по  ширине  авто  */
+       }
+
+    .slid{
+        display: block;
+        min-height: 540px;
+        background-image: url(../img/1.jpg);
+        background-size: cover;                              
+        background-position: center;                         
+        background-repeat: no-repeat;
+        margin-bottom: 68px;
+       }
+
+    .site-logo{
+        position: absolute;
+        top: 170px;
+        left: 85px;
+    } 
+
+    .site-navigation{
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+    }
+
+    .hdva{
+
+        position: absolute;
+        top: 174px;
+        left: 75px;
+        font-size: 30px;                       
+        line-height: 30px;                   
+    }
+
+    .hdva-od{
+        
+        position: absolute;
+        top: 211px;
+        left: 38px;
+        font-size: 30px;                       /* выбираем  размер  для  шрифта */
+        line-height: 30px;                  /*  размер  строковой  линии  */
+
+    }
+
+    .text{
+
+        position: absolute;
+        top: 254px;
+        left: 65px;
+        font-size: 18px;                       /* выбираем  размер  для  шрифта */
+        line-height: 21px;                  /*  размер  строковой  линии  */
+        width: 225px;
+
+    }
+
+    .site-knopka{
+       
+        position: absolute;
+        top: 310px;
+        left: 35px;
+
+    }
+   
+    .site-knopka a{
+        width: 280px;
+    }
+
+                                             /* Оформление  SECTION */
+
+     .features-list{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 14px;
+     }
+    
+     .features-list-item{
+        margin: 0 auto;
+        padding-bottom: 17px;
+     }
+      
+     .s1{
+        order: 1;
+    }
+    .s2{
+       order: 2;
+    }
+    .s3{
+       order: 3;
+   }
+   .s4{
+       order: 4;
+   }
+
+     .features{
+        padding-bottom: 57px;
+     }
+
+     .sec-kno{
+        text-align: center;
+      } 
+
+}
+
+@media (min-width: 992px){
+
+                               /* Оформление  хедера */
+
+    .container{
+       padding-left: 105px;
+       padding-right: 105px;
+       } 
+
+       .slid{
+        display: block;
+        min-height: 700px;
+        background-image: url(../img/10.jpg);
+        background-size: cover;                              
+        background-position: center;                         
+        background-repeat: no-repeat;
+        margin-bottom: 72px;
+       }
+
+    .site-navigation{
+        padding-top: 38px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .site-logo{
+        padding-top: 38px;
+        line-height: 32px;                  /*  размер  строковой  линии  */
+    }
+
+   .otstup{
+       padding-top: 143px;
+   }
+   .otstup_b{
+    padding-top: 10px;
+    padding-bottom: 33px;
+    }
+    .otstup_s{
+        padding-bottom: 33px;  
+    }
+
+    .hdva{
+        font-size: 52px;                       /* выбираем  размер  для  шрифта */
+        line-height: 52px;                  /*  размер  строковой  линии  */
+    }
+
+    .hdva-od{  
+        font-size: 52px;                       /* выбираем  размер  для  шрифта */
+        line-height: 52px;                  /*  размер  строковой  линии  */
+    }
+
+    .text{
+        font-size: 24px;                       /* выбираем  размер  для  шрифта */
+        line-height: 24px;                  /*  размер  строковой  линии  */
+    }
+
+    .site-knopka a{
+        width: 226px;
+    }
+
+                                                /* Оформление  SECTION */
+
+     .features-list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        padding-top: 20px;
+     }
+
+     .s1{
+         order: 1;
+         padding-bottom: 46px;
+     }
+     .s2{
+        order: 3;
+        padding-bottom: 37px;
+     }
+     .s3{
+        order: 2;
+        padding-bottom: 46px;
+    }
+    .s4{
+        order: 4;
+        padding-bottom: 37px;
+    }
+
+    .sec-kno a{
+        width: 188px;
+    }
+
+    .features{
+        padding-bottom: 40px;
+    }
+  
+   
+}
+
+@media (min-width: 1200px){
+
+                                           /* Оформление  хедера */
+
+    .container{
+        padding-left: 98px;
+        padding-right: 98px;
+    } 
+
+       .slid{
+        display: block;
+        min-height: 700px;
+        background-image: url(../img/11.jpg);
+        background-size: cover;                              
+        background-position: center;                         
+        background-repeat: no-repeat;
+
+        margin-bottom: 69px;
+       }
+
+    .site-navigation{
+        padding-top: 38px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .site-logo{
+        padding-top: 38px;
+        line-height: 32px;                  /*  размер  строковой  линии  */
+    }
+
+    .otstup{
+        padding-top: 143px;
+    }
+    .otstup_b{
+        padding-top: 10px;
+        padding-bottom: 33px;
+    }
+    .otstup_s{
+        padding-bottom: 33px;  
+    }
+
+    .hdva{
+        font-size: 52px;                       /* выбираем  размер  для  шрифта */
+        line-height: 52px;                  /*  размер  строковой  линии  */
+    }
+
+    .hdva-od{  
+        font-size: 52px;                       /* выбираем  размер  для  шрифта */
+        line-height: 52px;                  /*  размер  строковой  линии  */
+    }
+
+    .text{
+        font-size: 24px;                       /* выбираем  размер  для  шрифта */
+        line-height: 24px;                  /*  размер  строковой  линии  */
+    }
+
+    .site-knopka a{
+        width: 226px;
+    }
+
+                                                  /* Оформление  SECTION */
+
+    .features-list{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     padding-top: 20px;
+     padding-bottom: 37px;
+    }
+    .s1{
+        order: 1;
+    }
+    .s2{
+       order: 3;
+    }
+    .s3{
+       order: 2;
+   }
+   .s4{
+       order: 4;
+   }
+
+   .sec-kno a{
+    width: 188px;
+     }
+
+     .features{
+        padding-bottom: 73px;
+    }
+
+}
+
